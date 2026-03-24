@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> JD & Services Register</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../assets/logo1.jpg">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    </head>
+    <body>
+        
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: "Open Sans";
+                background-color:  rgb(232, 232, 232);
+              
+    
+            }
+            section{
+                position: relative;
+                height: 100vh;
+                width: 100%;
+               
+            }
+            .form-container{
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: linear-gradient(rgba(0,0,0,0,0,3),(rgba(0,0,0,0,0,3)));
+                width: 380px;
+                padding: 50px 30px;
+                border-radius: 10px;
+                box-shadow:7px 7px 60px #000;
+    
+            }
+            h1{
+                text-transform: uppercase;
+                font-size: 2em;
+                text-align: center;
+                margin-bottom: 1em;
+                
+            }
+            .control input{
+                width: 100%;
+                display: block;
+                padding: 7px;
+                color: #222;
+                border: none;
+                outline: none;
+                margin-bottom: 3%;
+                
+    
+    
+            }
+            .control input[type="submit"]{
+                background: crimson;
+                color: #fff;
+                text-transform: uppercase;
+                font: 1, 2em;
+                opacity: .7;
+              
+    
+            }
+            .control input[type="submit"]:hover{
+                opacity: 1;
+    
+            }
+            .link{
+                text-align: center;
+            }
+            .link a{
+                text-decoration: none;
+                color: #ffffff;
+                opacity: .6;
+                transition: opacity .3s ease;
+            }
+            .link a:hover{
+                opacity: 1;
+            }
+            nav {
+                display: flex;
+                justify-content: space-around ;
+                align-items: center;
+                padding: 15px 30px;
+                background-color: rgb(212, 147, 50);
+                height: 60px;
+            }
+            .logo img{
+               width: 150px;
+              
+            }
+            .nav-links a  {
+                margin-left: 60px;
+                text-decoration: none;
+                color: rgb(244, 235, 235);    
+            }
+            .nav-links a:hover{
+                border-bottom: 3px solid;
+                color: rgb(47, 46, 44);
+            }
+            h1{
+                text-align: center;
+                margin-top: 1%;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            .about-content{
+                width: 90%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .about-content .definition{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 50px;
+                margin-bottom: 40px;
+                border: 1px solid;
+                border-radius: 30px;
+            
+            }
+            .definition .card img{
+                height: 5%;
+                width: 20%;
+                margin-top: 10px;
+            }
+            .content p{
+                margin-top: 30px;
+                margin-bottom: 30px;
+              
+            }
+                </style>
+        
+                
+            </head>
+            <header>
+                    <nav>
+                        <div class="logo">
+                            <img src="../assets/logo1.jpg">
+                        </div>
+                        <div class="nav-links">
+                            <a href="home.html" title="home"><u>Home</u></a>
+                            <a href="contact us.html" title="contact us">Contact us</a>
+                            <a href="about us.html" title="about">About us</a>
+                            <a href="Order.html" title="order">Order</a>
+                        </div>
+                        <div class="nav-links2">
+                        <a href="Sign in.html" title="Sign in"><button>Sign in</button></a>
+                        <a href="register.html" title="Register"><button>Register</button></a>
+                        </div>
+                
+            </nav>
+        </header>
+
+        
+    </head>
+        <section>
+            <div class="form-container">
+                <h1>Register Form</h1>
+                <form action="#">
+                    <div class="control">
+                        <label for="name">Full Name:</label>
+                        <input type="text" name="fullname" id="name">
+                            <label for="name">Enter Email:</label>
+                            <input type="text" name="enteremail" id="name">
+                            <label for="name">Enter Address:</label>
+                            <input type="text" name="enteremail" id="name">
+                        </div>
+                        <div class="control">
+                            <label for="psw">Password</label>
+                            <input type="password" name="psw" id="psw">
+                            <label for="psw">Confirm Password</label>
+                            <input type="password" name="psw" id="psw">
+                            </div>
+                            <div class="control">
+                                <input type="submit" value="Sign Up">
+                           
+
+                            </div>
+                            </form>
+                            <div cllass="link">
+                                <center>
+                                <p>Already have an Account? <a href="Sign in.html">Login Now</p></a>
+                                </center>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        </body>
+        </html>
